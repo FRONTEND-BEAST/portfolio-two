@@ -1,0 +1,20 @@
+<a id="projectlink">
+                <div class="project">
+                    <img src="1.jpg" alt="sorry" class="thumbnail">
+                    <div class="content">
+                        <h1 class="title">Curiosity</h1>
+                        <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illum ullam expedita voluptates, est quaerat accusamus maxime soluta non, culpa dolorem nostrum quia incidunt quam beatae minus veritatis pariatur! Sunt.</p>
+                    </div>
+                </div>
+            </a>
+
+
+variables are:
+
+projectname=title
+projecturl=url
+thumbnail=image.jpg/png
+description=Lorem
+
+
+{"projectname":"","projecturl":"","thumbnail":"","description":"","_id":"TqwHUpfZqWYzIYtZ"}

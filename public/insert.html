@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>name</h1>
+    <input type="text" id="name">
+    <h1>url</h1>
+    <input type="text" id="url">
+    <h1>img</h1>
+    <input type="text" id="img">
+    <h1>para</h1>
+    <input type="text" id="para">
+    <button onclick="insert()">insert</button>
+    <script>
+        var projectname = document.getElementById("name").value,
+            projecturl = document.getElementById("url").value,
+            thumbnail = document.getElementById("img").value,
+            description = document.getElementById("para").value;
+
+        function insert() {
+            const data = {
+                projectname,
+                projecturl,
+                thumbnail,
+                description
+            };
+            const options = {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            };
+
+            fetch('/', options);
+        }
+    </script>
+</body>
+
+</html>
