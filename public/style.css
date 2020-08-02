@@ -120,13 +120,13 @@ a {
 .tagl {
     width: 100%;
     font-size: 7.6vh;
-    font-weight: 800;
+    font-weight: 1000;
     padding: 20px 50px;
 }
 
 .shortinfo {
     padding: 20px 50px;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
     font-weight: 80;
     width: 700px;
 }
@@ -166,7 +166,7 @@ a {
 
 .abt {
     font-size: 7.6vh;
-    font-weight: 800;
+    font-weight: 1000;
     padding: 10px 50px;
 }
 
@@ -184,7 +184,7 @@ a {
 
 .prjct {
     font-size: 7.6vh;
-    font-weight: 800;
+    font-weight: 1000;
     padding: 10px 50px;
 }
 
@@ -229,7 +229,7 @@ a {
 
 .cntct {
     font-size: 7.6vh;
-    font-weight: 800;
+    font-weight: 1000;
     padding: 10px 50px;
 }
 
